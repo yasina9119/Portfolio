@@ -1,0 +1,283 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+body {
+  background-image: url(image4.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-color:black;
+}
+
+.nav {
+  text-align: right;
+  margin-right: 50px;
+  padding-top: 30px;
+}
+
+a {
+  color: white;
+  margin-right: 15px;
+  transition: all 1s ease-in-out 0s;
+  text-decoration:none;
+}
+
+a:hover {
+  color:red;
+  font-size: larger;
+}
+
+.container {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 260px;
+  height:120px; 
+  padding: 5px; 
+  color:white;
+}
+
+h1 { 
+  text-transform:capitalize;
+  margin-bottom: 10px;
+  text-align:center;
+  transition: all 1s steps(2) 0s;
+}
+
+h1:hover {
+  color:blue;
+  font-size: large;
+}
+
+pre {
+  margin-bottom:15px;
+  transition: all 1s ease-out 0s;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+pre:hover {
+  color: rgb(3, 108, 132);
+  font-size: large;
+}
+
+/* ----------------------------------------About Me-------------------------------------------------- */
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-end;
+  background-color:white;
+  background-size: 55% auto; 
+  padding-right: 300px; 
+  background-position: right bottom;
+  padding-bottom: 10%;
+  margin-top: 24%;
+  position: relative;
+}
+
+#header {
+text-align: right; 
+margin-top:5%;
+width: 30%;
+justify-content: center;
+}
+
+h2 {
+align-items: center;
+width: 98%;
+color: rgb(254, 14, 114);
+}
+
+#about pre {
+white-space: pre-wrap; 
+margin: 0%; 
+text-align: center; 
+align-self: flex-end; 
+margin-top: 25px; 
+font-style: italic;
+font-weight:500;
+font-size:large;
+font-family: 'Times New Roman', Times, serif;
+}
+/* ----------------------------------------Education---------------------------------------------------------- */
+
+#Education {
+display: grid;
+grid-template-columns: 1fr 20%; 
+padding: 5%;
+font-family: 'Times New Roman', Times, serif;
+}
+
+#Education h2 {
+color: white;
+text-decoration: underline;
+}
+
+ul {
+color: white;
+}
+
+#Education img {
+position: absolute;
+margin-left: 50%;
+top: 177%;
+}
+/*--------------------------------------------------Skills---------------------------------------------------------------- */
+#Skills {
+background-color: white;
+padding: 5%;
+font-family: 'Times New Roman', Times, serif;
+display: grid;
+grid-template-columns: 1fr 38%; 
+}
+
+p {
+font-size:large;
+font-weight: bold;
+color: crimson;
+}
+
+#Skills h2 {
+text-decoration: underline;
+}
+
+#Skills ul {
+color:black;
+}
+
+#Skills img {
+top:55%;
+}
+
+#Skills h2 {
+color: black; 
+}
+/* ------------------------------------------------------Projects--------------------------------------------------------------------- */
+#Projects pre {
+transition: none;
+font-size: none;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+line-height: 1.2; 
+margin-bottom: 10px;
+}
+
+.project-details pre {
+padding-top: 5%;
+}
+
+li {
+display: flex;
+}
+
+#Projects a {
+color: blue;
+text-decoration: underline;
+}
+
+li img {
+margin-left: 85%;
+}
+/* -----------------------------------------------------------Contact------------------------------------------------------------------------- */
+.ContactMe {
+background-color: white;
+}
+
+#contact {
+padding: 20px;
+background-color: #f9f9f9;
+max-width: 600px;
+margin: 0 auto;
+}
+
+#contact h2 {
+color: black;
+}
+
+/* Styles for contact info section */
+.contact-info {
+margin-bottom: 20px;
+}
+
+.contact-info p {
+margin: 10px 0;
+color: black;
+font-size: medium;
+font-weight: normal;
+}
+
+.contact-info ul {
+list-style: none;
+padding: 0;
+}
+
+.contact-info ul li {
+margin-bottom: 5px;
+}
+
+.contact-info ul li a {
+color: black;
+text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+text-decoration: underline;
+}
+
+/* Styles for form */
+#contactForm input,
+#contactForm textarea,
+#contactForm button {
+display: block;
+width: 100%;
+margin-bottom: 10px;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+/* Styles for button */
+#contactForm button {
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 4px;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+#contactForm button:hover {
+background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
