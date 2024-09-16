@@ -1,0 +1,211 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100vw;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#nav {
+    padding: 12px;
+    padding-left: 63%;
+}
+
+a {
+    padding-left: 5px;
+    text-decoration: none;
+    color: #FFF;
+    transition: all 1s ease-in-out 0s;
+}
+
+a:hover {
+    color: red;
+    font-size: large;
+}
+
+.main {
+    display: flex;
+}
+
+.image {
+    width: 50%;
+    height: 450px;
+}
+
+img {
+    width: 100%;
+    height: 450px;
+}
+
+.content {
+    width: 50%;
+    color: #FFF;
+    margin: auto;
+}
+
+.content1 {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+.header {
+    text-align: center;
+    font-size: 20px;
+    transition: all 1s steps(2) 0s;
+}
+
+.header:hover {
+    color: rgb(195, 29, 148);
+    text-transform: uppercase;
+}
+
+/* responsive */
+@media(max-width:600px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%7;
+    }
+
+}
+
+/* About Me */
+.about {
+    width: 104%;
+    background-color: #FFF;
+}
+
+.header1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.header2 {
+    font-size: 24px;
+}
+
+.para {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Education */
+.Education {
+    width: 100%;
+    padding: 10px;
+}
+
+.Details {
+    color: #FFF;
+    padding: 20px;
+}
+
+/* Skills */
+.Skills {
+    width: 100%;
+    padding: 20px;
+    background-color: #FFF;
+}
+
+.myskills {
+    margin-left: 2%;
+}
+
+/* Projects */
+.myprojects {
+    color: #FFF;
+    padding: 5px 30px;
+}
+
+.projects1 {
+    padding: 15px;
+}
+
+/* contact */
+.ContactMe {
+    width: 104%;
+    background-color: white;
+}
+
+#contact {
+    padding: 60px;
+    background-color: #f9f9f9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact h2 {
+    color: black;
+}
+
+/* Styles for contact info section */
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: black;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 5px;
+}
+
+.contact-info ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for form */
+#contactForm input,
+#contactForm textarea,
+#contactForm button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styles for button */
+#contactForm button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contactForm button:hover {
+    background-color: #0056b3;
+}
